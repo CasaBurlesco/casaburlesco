@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Casa Burlesco • Abruzzo, Italy</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f7f7f7;
+      color: #1a1a1a;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1f6f54, #3c9f7a);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 42px;
+      letter-spacing: -1px;
+    }
+
+    header p {
+      margin: 0 auto;
+      max-width: 600px;
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #1f6f54;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 14px;
+      border: 1px solid #e2e2e2;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 22px;
+      background: #1f6f54;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Casa Burlesco</h1>
+  <p>A fully livable farmhouse in Abruzzo, growing into a small ecovillage.  
+  Live simply, collaborate, rebuild, create.</p>
+</header>
+
+<div class="section">
+  <div class="card">
+    <h2>About the Project</h2>
+    <p>Casa Burlesco is a farmhouse surrounded by olive hills in Abruzzo, Italy.  
+    The house is fully livable today and will slowly be remodeled to become modern, warm, and community-centered — while keeping its rustic soul.</p>
+  </div>
+
+  <div class="card">
+    <h2>What We're Building</h2>
+    <ul>
+      <li>Regenerative farming & permaculture</li>
+      <li>Sustainable renovation & natural materials</li>
+      <li>Shared spaces for community living</li>
+      <li>Renewable energy & water systems</li>
+      <li>Creative projects: photography, storytelling, media</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Stay at Casa Burlesco</h2>
+    <p>Private or shared rooms available in the farmhouse.  
+    Shared kitchen, garden, terraces, and work areas.  
+    Open to volunteers, guests, and long-term community members.</p>
+  </div>
+
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://placehold.co/800x600?text=Casa+Burlesco" />
+    <img src="https://placehold.co/800x600?text=Olive+Hills" />
+    <img src="https://placehold.co/800x600?text=Farmhouse+Room" />
+    <img src="https://placehold.co/800x600?text=Garden+%26+Land" />
+  </div>
+
+  <a class="cta" href="mailto:aamery9561@gmail.com">Contact Us</a>
+</div>
+
+<footer>
+  © <span id="year"></span> Casa Burlesco • Abruzzo, Italy
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
